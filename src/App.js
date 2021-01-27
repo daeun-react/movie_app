@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
       <>
         <Navigation />
-        <Route path="/" exact component={Home} />
+        <Route path="/" component={Home} exact />
         <Route path="/about" component={About} />
         <Route path="/movie-detail" component={Detail} />
       </>
